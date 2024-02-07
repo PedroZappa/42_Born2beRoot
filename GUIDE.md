@@ -932,7 +932,7 @@ sudo apt install mariadb-server
 
 - [ ] Check if **MariaDB** installed successfully;
 ```sh
-dpkg -l | grep mariadb-server`
+dpkg -l | grep mariadb-server
 ```
 
 - [ ] Get Security package that restricts access to the server and removed unused accounts:
@@ -995,7 +995,7 @@ MariaDB [(none)]> GRANT ALL PRIVILEGES ON wp_database.* TO 'passunca'@'localhost
 
 - [ ] Update Privileges for changes to take place:
 ```sql
-MariaDB [(none)]> FLUSH PRIVILEGES
+MariaDB [(none)]> FLUSH PRIVILEGES;
 ```
 
 - [ ] List all present users of **MariaDB**:
