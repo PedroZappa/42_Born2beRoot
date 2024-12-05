@@ -1,5 +1,15 @@
 # Commands Glossary
 
+<!-- mtoc-start -->
+
+* [System Commands](#system-commands)
+* [`cron` Commands](#cron-commands)
+* [`ufw` Commands](#ufw-commands)
+* [`sudo` Commands](#sudo-commands)
+* [`ssh` Commands](#ssh-commands)
+
+<!-- mtoc-end -->
+
 ## System Commands
 
 - Switch user command, allows to run commands with another users privileges, by default the root user:
