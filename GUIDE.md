@@ -703,7 +703,7 @@ ___
 ### CPU Information
 - [ ] Get percentage of **CPU** usage:
 ```sh
-vmstat 1 4 | tail -1 | awk '{print %15}'
+vmstat 1 4 | tail -1 | awk '{print $15}'
 # or
 top -bn1 | tail +8 | awk '{ cpul += $9 } END { printf("%.1f"), cpul }'
 ```
